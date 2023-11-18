@@ -7,7 +7,6 @@ import 'react-toastify/dist/ReactToastify.css';
 import { ToastContainer } from 'react-toastify';
 
 const data = custom.get('/test')
-console.log(data);
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
