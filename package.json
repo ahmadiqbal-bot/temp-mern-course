@@ -1,11 +1,12 @@
 {
-  "name": "jobify",
+  "name": "temp-mern-course",
   "version": "1.0.0",
   "description": "[Jobify](https://jobify.live/)",
-  "main": "index.js",
+  "main": "server.js",
   "type": "module",
   "scripts": {
-    "setup-project": "npm i && cd my-client2 && npm i",
+    "setup-project": "npm i --legacy-peer-deps && cd my-client2 && npm i --legacy-peer-deps",
+    "setup-production-app": "npm i --legacy-peer-deps && cd my-client2 && npm i --legacy-peer-deps && npm run build",
     "server": "nodemon server.js",
     "client": "cd my-client2 && npm run dev",
     "dev": "concurrently --kill-others-on-fail \" npm run server\" \" npm run client\""

@@ -57,7 +57,7 @@ try {
       <div className='form-row'>
       <label  className='form-label'>    email
       </label>
-      <input type='email' name= 'email' className='form-input' required/>
+      <input type='email' name= 'email' className='form-input'  required/>
       <label  className='form-label'>   Password
       </label>
       <input type='password'  name= 'password' className='form-input' required/>

@@ -11,7 +11,6 @@ import mongoose from 'mongoose';
 import authrouter from './Routes/Authroutes.js'
 import cookieParser from 'cookie-parser';
 import cloudinary from 'cloudinary';
-
 //middleware
 import Errorhandlemiddleware from './middleware/Errorhandle.js';
 import { Authmiddle } from './middleware/Authmiddleware.js';

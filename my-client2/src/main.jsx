@@ -6,7 +6,7 @@ import custom from './Until/Customutil.js';
 import 'react-toastify/dist/ReactToastify.css';
 import { ToastContainer } from 'react-toastify';
 
-const data =  await custom.get('/test')
+const data = custom.get('/test')
 console.log(data);
 
 
